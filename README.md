@@ -1,0 +1,2 @@
+# CCC
+Canadian Computing Competition
