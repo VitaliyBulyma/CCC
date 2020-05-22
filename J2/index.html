@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shifty Numbers</title>
+</head>
+<body>
+        <a href="https://cemc.math.uwaterloo.ca/contests/computing/2017/stage%201/juniorEF.pdf">Canadian Computing Competition (CCC) | 2017:J2</a>
+        <h1>Shifty Sum</h1>
+        <h2>Enter following: </h2>
+        <label for="base-num">Enter a base whole number from 1 to 10000 </label><br /> 
+        <input type="text" name="base-num" id="base-num"><br />
+        <label for="shift-num">Enter a number to shift from 0 to 5</label><br />
+        <input type="text" name="shift-num" id="shift-num"><br />
+        
+        <button onclick="onSubmit()">- Calculate -</button><br />
+   
+    <div id="err"></div>
+    <div>
+        <p id="output">By shifting a number&nbsp;<span id="base"></span>&nbsp;by  <span id="shift"></span> times, the shifty sum is: &nbsp; <span id="sum"></span>.</p>
+    </div>
+<script src="j2-2017.js"></script>    
+</body>
+</html>
